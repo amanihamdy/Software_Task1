@@ -18,9 +18,9 @@ public class Restaurant {
      */
     public static void main(String[] args) {
 
-        showMessageDialog(null, "Welcome to Our Restaurant  ^^ ", "Pizza Hut", 1);
+        showMessageDialog(null, "Welcome to Our Restaurant  ^^ " , "Pizza Hut", 1);
         showMessageDialog(null, "Choose your favourite type of pizza \n1- Chicken pizza\n2- Margherita pizza\n3- Cheese pizza\n4- Tuna pizza\n5- Exit");
-        String x = JOptionPane.showInputDialog("Enter your order : ");
+        String x = JOptionPane.showInputDialog("Enter your order :- ");
         int y = Integer.parseInt(x);
         Pizza p1;
         switch (y) {
